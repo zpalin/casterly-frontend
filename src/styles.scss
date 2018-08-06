@@ -1,0 +1,30 @@
+@import "../node_modules/tachyons-sass/tachyons.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nav-link {
+  &.active {
+    @extend .blue;
+    @extend .bb;
+    @extend .b--blue;
+    font-weight: 600;
+    border-width: 3px;
+  }
+}
+
+.no-outline {
+  outline: none !important;
+}
