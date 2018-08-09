@@ -6,7 +6,7 @@ const styles = {
 
 const Home = () => (
     <div className={styles.container}>
-        Podcastr
+        Casterly
     </div>
 )
 

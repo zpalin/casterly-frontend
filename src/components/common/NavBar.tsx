@@ -10,7 +10,7 @@ const styles = {
 
 const NavBar = () => (
     <div className={styles.container}>
-        <Link className={styles.logo} to="/">Podcastr</Link>
+        <Link className={styles.logo} to="/">Casterly</Link>
         <div className={styles.buttonContainer}>
             <NavLink to="/" exact={true} className={styles.navLink}>Home</NavLink>
             <NavLink to="/other" className={styles.navLink}>Other</NavLink>
